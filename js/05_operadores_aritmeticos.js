@@ -1,0 +1,12 @@
+// Tema 5: Operadores aritméticos
+
+let a = 10;
+let b = 3;
+
+console.log("Tema 5:");
+console.log("Suma:", a + b);
+console.log("Resta:", a - b);
+console.log("Multiplicación:", a * b);
+console.log("División:", a / b);
+console.log("Módulo:", a % b);
+console.log("Potencia:", a ** b);
