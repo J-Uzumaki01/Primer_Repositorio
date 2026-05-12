@@ -1,0 +1,117 @@
+body{
+    background: #eef3f8;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.titulo-principal{
+    background: #111827;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: fit-content;
+}
+
+section{
+    margin-top: 35px;
+}
+
+.titulo-azul,
+.titulo-azul-claro,
+.titulo-azul-oscuro,
+.titulo-morado,
+.titulo-verde,
+.titulo-naranja,
+.titulo-rosa{
+
+    display: inline-block;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.titulo-azul{
+    background: #0d6efd;
+}
+
+.titulo-azul-claro{
+    background: #1da1ff;
+}
+
+.titulo-azul-oscuro{
+    background: #1f4db8;
+}
+
+.titulo-morado{
+    background: #7b2cbf;
+}
+
+.titulo-verde{
+    background: #42b72a;
+}
+
+.titulo-naranja{
+    background: #ff8800;
+}
+
+.titulo-rosa{
+    background: #ff007f;
+}
+
+.caja-imagen img{
+    width: 350px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+td{
+    border: 1px solid gray;
+    padding: 12px;
+    width: 100px;
+    text-align: center;
+}
+
+select,
+input{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.caja-demo{
+    background: #dfe6ec;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.fila{
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.columna{
+    background: #cfe2ff;
+    padding: 20px;
+    width: 150px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.campo{
+    margin-top: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
